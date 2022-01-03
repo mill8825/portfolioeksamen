@@ -73,6 +73,10 @@ p {
     grid-column: 2/3;
   }
 
+  .text_1 {
+    padding-right: 5rem;
+  }
+
   .text_2 {
     grid-row: 3/4;
   }
