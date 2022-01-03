@@ -1,5 +1,6 @@
 body {
   padding: 2rem;
+  background-color: #f0f1ff;
 }
 /*overskift*/
 h1 {
@@ -79,7 +80,7 @@ p {
 
 /* header */
 .banner {
-  background: #fffce6;
+  background: #fffcf0;
   padding: 2rem;
   display: flex;
   flex-direction: row;

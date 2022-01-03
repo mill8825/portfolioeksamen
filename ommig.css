@@ -1,5 +1,6 @@
 body {
   padding: 2rem;
+  background-color: #f0f1ff;
 }
 /*overskift*/
 h1 {
@@ -43,10 +44,12 @@ hr {
 /*mellemrum mellem billeder+tekst i mobil*/
 h2 {
   margin-top: 0.5rem;
+  padding-left: 2rem;
 }
 
 p {
   margin-bottom: 3rem;
+  padding-right: 2rem;
 }
 
 /*media query*/
@@ -64,6 +67,10 @@ p {
     margin-top: 0;
   }
 
+  .img_1 {
+    padding-left: 7rem;
+  }
+
   .img_2 {
     grid-column: 2/3;
     grid-row: 3/4;
@@ -73,8 +80,13 @@ p {
     grid-column: 2/3;
   }
 
+  .text_1 {
+    padding-right: 5rem;
+  }
+
   .text_2 {
     grid-row: 3/4;
+    padding-left: 5rem;
   }
 }
 
@@ -96,7 +108,7 @@ p {
 
 /* header */
 .banner {
-  background: #fffce6;
+  background: #fffcf0;
   padding: 2rem;
   display: flex;
   flex-direction: row;
