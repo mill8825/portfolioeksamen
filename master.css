@@ -2,3 +2,18 @@ p {
   font-size: 17px;
   line-height: 1.5rem;
 }
+.text_2 {
+  padding-left: 1rem;
+}
+
+.text_1 {
+  padding-right: 1rem;
+}
+
+h2 {
+  text-align: start;
+}
+
+h1 {
+  text-align: start;
+}
