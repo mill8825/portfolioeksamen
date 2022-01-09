@@ -9,8 +9,10 @@ function toggleMenu() {
   const menuShown = nav.classList.contains("shown");
 
   if (menuShown) {
+    knapper.textContent = "";
     knapper.classList.add("open");
   } else {
+    knapper.textContent = "Menu";
     knapper.classList.remove("open");
   }
 }
