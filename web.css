@@ -44,10 +44,13 @@ hr {
 /*mellemrum mellem billeder+tekst i mobil*/
 h2 {
   margin-top: 0.5rem;
+  padding-left: 2rem;
 }
 
 p {
   margin-bottom: 3rem;
+  padding-right: 2rem;
+  font-size: 17px;
 }
 
 /*media query*/
@@ -62,13 +65,19 @@ p {
 
   /*billeder+teksts placering i griddet*/
   h2 {
-    font-size: 17px;
+    margin-top: 0;
+  }
+
+  .img_1 {
+    padding-left: 3.5rem;
+    padding-top: 2rem;
   }
 
   .img_2 {
     grid-column: 2/3;
     grid-row: 3/4;
-    padding-left: 4rem;
+
+    padding-left: 5rem;
   }
 
   .img_4 {
@@ -83,9 +92,42 @@ p {
 
   .text_2 {
     grid-row: 3/4;
+    padding-left: 5rem;
     font-size: 17px;
     line-height: 1.5rem;
   }
+}
+
+/* header */
+.banner {
+  background: #fffce6;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.banner ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* header */
+.banner {
+  background: #fffcf0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.banner ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
 }
 
 /* burgermenu */
