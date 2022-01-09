@@ -53,48 +53,60 @@ p {
   font-size: 17px;
 }
 
-/*media query*/
-@media (min-width: 880px) {
+@media (min-width: 500px) {
   /*først i web skal vi bruge grid*/
-  .section_grid {
+  .section_grid p {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 15px;
-    margin-bottom: 20px;
+    padding-left: 3rem;
+  }
+  .section_grid h2 {
+    padding-left: 3rem;
+  }
+  .section_grid img {
+    width: 100%;
   }
 
-  /*billeder+teksts placering i griddet*/
-  h2 {
-    margin-top: 0;
-  }
+  /*media query*/
+  @media (min-width: 1200px) {
+    /*først i web skal vi bruge grid*/
+    .section_grid {
+      display: grid;
+      margin-bottom: 20px;
+    }
 
-  .img_1 {
-    padding-left: 3.5rem;
-    padding-top: 2rem;
-  }
+    /*billeder+teksts placering i griddet*/
+    h2 {
+      margin-top: 0;
+    }
 
-  .img_2 {
-    grid-column: 2/3;
-    grid-row: 3/4;
+    .img_1 {
+      padding-left: 3.5rem;
+      padding-top: 2rem;
+    }
 
-    padding-left: 5rem;
-  }
+    .img_2 {
+      grid-column: 2/3;
+      grid-row: 3/4;
 
-  .img_4 {
-    grid-column: 2/3;
-  }
+      padding-left: 5rem;
+    }
 
-  .text_1 {
-    padding-right: 5rem;
-    font-size: 17px;
-    line-height: 1.5rem;
-  }
+    .img_4 {
+      grid-column: 2/3;
+    }
 
-  .text_2 {
-    grid-row: 3/4;
-    padding-left: 5rem;
-    font-size: 17px;
-    line-height: 1.5rem;
+    .text_1 {
+      padding-right: 5rem;
+      font-size: 17px;
+      line-height: 1.5rem;
+    }
+
+    .text_2 {
+      grid-row: 3/4;
+      padding-left: 5rem;
+      font-size: 17px;
+      line-height: 1.5rem;
+    }
   }
 }
 

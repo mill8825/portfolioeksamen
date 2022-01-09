@@ -50,31 +50,42 @@ p {
   margin-bottom: 3rem;
 }
 
-/*media query*/
-@media (min-width: 880px) {
+@media (min-width: 500px) {
   /*først i web skal vi bruge grid*/
-  .section_grid {
+  .section_grid p {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 15px;
-    margin-bottom: 20px;
+    padding-left: 3rem;
+  }
+  .section_grid h2 {
+    padding-left: 3rem;
+  }
+  .section_grid img {
+    width: 100%;
   }
 
-  /*billeder+teksts placering i griddet*/
-  h2 {
-    margin-top: 0;
-  }
-  .img_2 {
-    grid-column: 2/3;
-    grid-row: 3/4;
-  }
+  /*media query*/
+  @media (min-width: 1200px) {
+    /*først i web skal vi bruge grid*/
+    .section_grid {
+      display: grid;
+      margin-bottom: 20px;
+    }
+    /*billeder+teksts placering i griddet*/
+    h2 {
+      margin-top: 0;
+    }
+    .img_2 {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
 
-  .img_4 {
-    grid-column: 2/3;
-  }
+    .img_4 {
+      grid-column: 2/3;
+    }
 
-  .text_2 {
-    grid-row: 3/4;
+    .text_2 {
+      grid-row: 3/4;
+    }
   }
 }
 
