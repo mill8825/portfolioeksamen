@@ -53,7 +53,7 @@ p {
   font-size: 17px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 400px) {
   /*først i web skal vi bruge grid*/
   .section_grid p {
     display: grid;
